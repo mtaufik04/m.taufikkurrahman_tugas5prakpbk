@@ -1,17 +1,17 @@
 <template>
   <div>
-    <Navbar/>
+    <Nav/>
     <Card/>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import Nav from './components/Navbar.vue'
 import Card from './components/Card.vue'
 
 export default {
   components: {
-    Navbar,
+    Nav,
     Card
   }
 }
